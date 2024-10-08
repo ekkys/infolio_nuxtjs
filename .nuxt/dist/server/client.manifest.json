@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "E:/PROJECT/JDIH/infolionuxtjs-10/infolionuxtjs-10/Main_Files/infolio_nuxtjs/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "E:/PROJECT/JDIH/infolionuxtjs-10/infolionuxtjs-10/Main_Files/infolio_nuxtjs/node_modules/nuxt/dist/app/entry.js"
+  }
+}
