@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <footer class="modern-footer pt-80">
     <div class="footer-container">
       <div class="container ontop">
@@ -146,4 +146,108 @@ onMounted(() => {
     scrub: true,
   });
 });
+</script> -->
+
+
+<template>
+  <footer class="bg-dark-red text-light py-5">
+    <div class="container">
+      <div class="row justify-content-between align-items-start">
+        <!-- Logo dan Deskripsi -->
+        <div class="col-md-4 mb-4">
+          <div class="text-center text-md-start">
+            <img src="/public/light/assets/imgs/logo.png" alt="Logo Mojokerto" class="mb-3 logo-footer">
+            <p class="small">
+              Website dikelola oleh: <br>
+              Sekretariat Kabupaten Mojokerto | Bagian Hukum
+            </p>
+          </div>
+        </div>
+
+        <!-- Statistik Pengunjung -->
+        <div class="col-md-4 mb-4">
+          <h5 class="mb-3 text-uppercase">Statistik Pengunjung</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-person-fill me-2"></i>Pengunjung Website Hari ini: 269</li>
+            <li><i class="bi bi-people-fill me-2"></i>Pengunjung Website Minggu ini: 3172</li>
+            <li><i class="bi bi-calendar-event-fill me-2"></i>Pengunjung Website Bulan ini: 17362</li>
+            <li><i class="bi bi-calendar3 me-2"></i>Pengunjung Website Tahun ini: 85619</li>
+            <li><i class="bi bi-bar-chart-fill me-2"></i>Total Pengunjung: 170302</li>
+          </ul>
+        </div>
+
+        <!-- Informasi Kontak -->
+        <div class="col-md-4">
+          <h5 class="mb-3 text-uppercase">Alamat</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              <strong>Lokasi:</strong><br>
+              Jl. Ahmad Yani No.16, Mergelo, Purwotengah, Kec. Magersari, Kota Mojokerto, Jawa Timur 61311
+            </li>
+            <li class="mt-2">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <strong>Call Center:</strong> 112
+            </li>
+            <li class="mt-2">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <strong>Pengaduan:</strong> damarmojo.lapor.go.id
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Border top and copyright -->
+      <div class="border-top mt-4 pt-3 text-center small">
+        &copy; 2024 Kabupaten Mojokerto. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script setup>
 </script>
+
+<style scoped>
+.bg-dark-red {
+  background-color: #000000;
+}
+
+footer img.logo-footer {
+  max-width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+footer h5 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+}
+
+footer ul {
+  font-size: 0.9rem;
+}
+
+footer i {
+  color: #ffcc00;
+}
+
+footer .border-top {
+  border-top: 1px solid #555;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+  footer h5,
+  footer ul {
+    text-align: center;
+  }
+}
+</style>

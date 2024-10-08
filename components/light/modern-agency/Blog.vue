@@ -2,12 +2,12 @@
   <section class="blog-list-half section-padding sub-bg">
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Blog</h6>
+        <h6 class="sub-title main-color mb-25">BERITA</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
-          <h2 class="fw-600">Read Latest <span class="fw-200">News</span></h2>
+          <h2 class="fw-600">BERITA <span class="fw-200">TERBARU</span></h2>
           <div class="ml-auto">
             <a href="/light/blog-list2" class="go-more">
-              <span class="text">View all posts</span>
+              <span class="text">LIHAT Semua Berita</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>
           </div>
@@ -18,11 +18,7 @@
           <div class="item main-bg md-mb50">
             <div class="row rest">
               <div class="col-lg-6 col-md-5 img rest">
-                <img
-                  src="/light/assets/imgs/blog/b/2.jpg"
-                  alt=""
-                  class="img-post"
-                />
+                <img src="/light/assets/imgs/blog/b/2.jpg" alt="" class="img-post" />
                 <div class="author d-flex align-items-center">
                   <div>
                     <div class="fit-img icon-img-50 circle">
@@ -60,11 +56,7 @@
           <div class="item main-bg">
             <div class="row rest">
               <div class="col-lg-6 col-md-5 img rest">
-                <img
-                  src="/light/assets/imgs/blog/b/3.jpg"
-                  alt=""
-                  class="img-post"
-                />
+                <img src="/light/assets/imgs/blog/b/3.jpg" alt="" class="img-post" />
                 <div class="author d-flex align-items-center">
                   <div>
                     <div class="fit-img icon-img-50 circle">

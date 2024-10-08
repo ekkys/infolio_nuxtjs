@@ -9,14 +9,7 @@
             <main class="main-bg">
                 <Header />
                 <Services />
-                <About />
                 <Number />
-                <Portfolio />
-                <Marquee />
-                <Brands />
-                <ServicesTab />
-                <Testimonials />
-                <Team />
                 <Blog />
             </main>
             <div>
