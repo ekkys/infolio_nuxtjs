@@ -23,7 +23,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <span class="rolling-text">Home</span>
+              <span class="rolling-text">Beranda</span>
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/light/home-main"> Main Home </a>
@@ -69,7 +69,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <span class="rolling-text">Portfolio</span>
+              <span class="rolling-text">Profil</span>
             </a>
             <div class="dropdown-menu mega-menu">
               <div class="container">
@@ -244,7 +244,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <span class="rolling-text">Pages</span>
+              <span class="rolling-text">Dokumen Hukum</span>
             </a>
             <ul class="dropdown-menu">
               <li class="dropdown-item">
@@ -348,7 +348,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <span class="rolling-text">Blogs</span>
+              <span class="rolling-text">Peraturan Desa</span>
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/light/blog-classic">
@@ -369,9 +369,17 @@
             class="nav-item"
           >
             <a class="nav-link" href="/light/page-contact">
-              <span class="rolling-text">Contact Us</span>
+              <span class="rolling-text">Berita</span>
             </a>
+            
           </li>
+        <li @mousemove="handleDropdownMouseMove"
+            @mouseleave="handleDropdownMouseLeave"
+            class="nav-item">
+          <a class="nav-link" href="/light/page-contact">
+              <span class="rolling-text">Galeri</span>
+            </a>
+        </li>
         </ul>
       </div>
 
