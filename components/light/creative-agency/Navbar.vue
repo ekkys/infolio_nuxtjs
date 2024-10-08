@@ -1,400 +1,80 @@
 <template>
   <nav class="navbar navbar-expand-lg bord blur">
     <div class="container">
-      <a class="logo icon-img-100" href="#">
-        <img src="/light/assets/imgs/logo-light.png" alt="logo" />
+      <a class="logo icon-img-110" href="#">
+        <img src="/light/assets/imgs/logo-nav-jdih.png" alt="logo" />
       </a>
-
-      <div
-        class="collapse navbar-collapse justify-content-center"
-        id="navbarSupportedContent"
-      >
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li
-            @mousemove="handleDropdownMouseMove"
-            @mouseleave="handleDropdownMouseLeave"
-            class="nav-item dropdown"
-          >
-            <a
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+          <!-- Beranda -->
+          <li @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave" class="nav-item">
+            <a class="nav-link" href="/light/">
               <span class="rolling-text">Beranda</span>
             </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="/light/home-main"> Main Home </a>
-              <a class="dropdown-item" href="/light/home-startup-onepage">
-                Modern Startup
-              </a>
-              <a class="dropdown-item" href="/light/home-creative-agency">
-                Creative Agency
-              </a>
-              <a class="dropdown-item" href="/light/home-modern-agency">
-                Modern Agency
-              </a>
-              <a class="dropdown-item" href="/light/home-creative-portfolio">
-                Creative Portfolio
-              </a>
-              <a class="dropdown-item" href="/light/home-digital-agency">
-                Digital Agency
-              </a>
-              <a class="dropdown-item" href="/light/home-freelancer">
-                Freelancer
-              </a>
-              <a class="dropdown-item" href="/light/home-personal-vcard">
-                Personal vCard
-              </a>
-              <a class="dropdown-item" href="/light/home-minimal-portfolio">
-                Minimal Portfolio
-              </a>
-              <a class="dropdown-item" href="/light/home-asymmetric-portfolio">
-                Asymmetric Portfolio
-              </a>
-            </div>
           </li>
-          <li
-            @mousemove="handleDropdownMouseMove"
-            @mouseleave="handleDropdownMouseLeave"
-            class="nav-item dropdown"
-          >
-            <a
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+          <!-- Profil -->
+          <li @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">
               <span class="rolling-text">Profil</span>
-            </a>
-            <div class="dropdown-menu mega-menu">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="clumn mb-80">
-                      <div class="title">
-                        <h6 class="sub-title ls1 pb-20 bord-thin-bottom">
-                          Portfolio Type
-                        </h6>
-                      </div>
-                      <div class="links row">
-                        <div class="col-lg-4">
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-standard"
-                          >
-                            Standerd
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-gallery"
-                          >
-                            Gallery
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-metro"
-                          >
-                            Metro
-                          </a>
-                        </div>
-                        <div class="col-lg-4">
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-masonry"
-                          >
-                            Masonry
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-caption-cursor"
-                          >
-                            Caption Cursor
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-outline"
-                          >
-                            Outline
-                          </a>
-                        </div>
-                        <div class="col-lg-4">
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-parallax"
-                          >
-                            Parallax
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/portfolio-sticky"
-                          >
-                            Sticky
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="clumn">
-                      <div class="title">
-                        <h6 class="sub-title ls1 pb-20 bord-thin-bottom">
-                          Showcases
-                        </h6>
-                      </div>
-                      <div class="links row">
-                        <div class="col-lg-4">
-                          <a
-                            class="dropdown-item"
-                            href="/light/showcase-fullscreen"
-                          >
-                            Parallax Slider
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/showcase-carousel"
-                          >
-                            Showcase Carousel
-                          </a>
-                        </div>
-                        <div class="col-lg-4">
-                          <a
-                            class="dropdown-item"
-                            href="/light/showcase-half-slider"
-                          >
-                            Creative Slider
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/showcase-interactive-full"
-                          >
-                            Interactive Full
-                          </a>
-                        </div>
-                        <div class="col-lg-4">
-                          <a
-                            class="dropdown-item"
-                            href="/light/showcase-interactive-center"
-                          >
-                            Interactive Center
-                          </a>
-                          <a
-                            class="dropdown-item"
-                            href="/light/showcase-interactive-vertical"
-                          >
-                            Interactive Vertical
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="clumn">
-                      <div class="title">
-                        <h6 class="sub-title ls1 pb-20 bord-thin-bottom">
-                          Portfolio Single
-                        </h6>
-                      </div>
-                      <div class="links row">
-                        <div class="col-lg-4">
-                          <a class="dropdown-item" href="/light/project1">
-                            project1
-                          </a>
-                          <a class="dropdown-item" href="/light/project2">
-                            project2
-                          </a>
-                        </div>
-                        <div class="col-lg-4">
-                          <a class="dropdown-item" href="/light/project3">
-                            project3
-                          </a>
-                          <a class="dropdown-item" href="/light/project4">
-                            project4
-                          </a>
-                        </div>
-                        <div class="col-lg-4">
-                          <a class="dropdown-item" href="/light/project5">
-                            project5
-                          </a>
-                          <a class="dropdown-item" href="/light/project6">
-                            project6
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li
-            @mousemove="handleDropdownMouseMove"
-            @mouseleave="handleDropdownMouseLeave"
-            class="nav-item dropdown"
-          >
-            <a
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <span class="rolling-text">Dokumen Hukum</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="dropdown-item">
-                <a href="#0">
-                  About Us <i class="fas fa-angle-right icon-arrow"></i>
-                </a>
-                <ul class="dropdown-side">
-                  <li>
-                    <a class="dropdown-item" href="/light/page-about">
-                      About Us 1
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/light/page-about2">
-                      About Us 2
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/light/page-about3">
-                      About Us 3
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-item">
-                <a href="#0">
-                  Services <i class="fas fa-angle-right icon-arrow"></i>
-                </a>
-                <ul class="dropdown-side">
-                  <li>
-                    <a class="dropdown-item" href="/light/page-services">
-                      Services 1
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/light/page-services2">
-                      Services 2
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="/light/page-services-details"
-                    >
-                      Services Details
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-item">
-                <a href="#0">
-                  Contact Us
-                  <i class="fas fa-angle-right icon-arrow"></i>
-                </a>
-                <ul class="dropdown-side">
-                  <li>
-                    <a class="dropdown-item" href="/light/page-contact">
-                      Contact Us 1
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/light/page-contact2">
-                      Contact Us 2
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/light/page-contact3">
-                      Contact Us 3
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/light/page-team"> Our Team </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/light/page-team-single">
-                  Team Details
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/light/page-FAQS"> FAQS </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/light/page-error-404">
-                  Error 404
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li
-            @mousemove="handleDropdownMouseMove"
-            @mouseleave="handleDropdownMouseLeave"
-            class="nav-item dropdown"
-          >
-            <a
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <span class="rolling-text">Peraturan Desa</span>
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/light/blog-classic">
-                Blog Standerd
+                Sejarah
               </a>
-              <a class="dropdown-item" href="/light/blog-list"> Blog List </a>
+              <a class="dropdown-item" href="/light/blog-list"> Dasar Hukum </a>
               <a class="dropdown-item" href="/light/blog-list2">
-                Blog List 2
+                Visi Misi
               </a>
               <a class="dropdown-item" href="/light/blog-details">
-                Blog Details
+                Struktur Organisasi
               </a>
             </div>
           </li>
-          <li
-            @mousemove="handleDropdownMouseMove"
-            @mouseleave="handleDropdownMouseLeave"
-            class="nav-item"
-          >
+          <!-- Profil -->
+          <li @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">
+              <span class="rolling-text">DOKUMEN HUKUM</span>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/light/blog-classic">
+                Peraturan
+              </a>
+              <a class="dropdown-item" href="/light/blog-list"> Dasar Hukum </a>
+              <a class="dropdown-item" href="/light/blog-list2">
+                Monografi Hukum
+              </a>
+              <a class="dropdown-item" href="/light/blog-details">
+                Artikel Hukum
+              </a>
+              <a class="dropdown-item" href="/light/blog-details">
+                Putusan
+              </a>
+            </div>
+          </li>
+          <!-- PERDES -->
+          <li @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave" class="nav-item">
+            <a class="nav-link" href="/light/">
+              <span class="rolling-text">PERDES</span>
+            </a>
+          </li>
+          <!-- BERITA -->
+          <li @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave" class="nav-item">
             <a class="nav-link" href="/light/page-contact">
               <span class="rolling-text">Berita</span>
             </a>
-            
+
           </li>
-        <li @mousemove="handleDropdownMouseMove"
-            @mouseleave="handleDropdownMouseLeave"
-            class="nav-item">
-          <a class="nav-link" href="/light/page-contact">
+          <!-- GALERI -->
+          <li @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave" class="nav-item">
+            <a class="nav-link" href="/light/page-contact">
               <span class="rolling-text">Galeri</span>
             </a>
-        </li>
+          </li>
         </ul>
       </div>
 
-      <div class="search-form">
-        <div class="form-group">
-          <input type="text" name="search" placeholder="Search" />
-          <button>
-            <span class="pe-7s-search"></span>
-          </button>
-        </div>
-        <div class="search-icon">
-          <span class="pe-7s-search open-search"></span>
-          <span class="pe-7s-close close-search"></span>
-        </div>
-      </div>
       <div class="topnav">
         <div @click="toggleMenu" class="menu-icon cursor-pointer">
           <span class="icon ti-align-right"></span>
@@ -420,11 +100,7 @@
         <div class="col-lg-7">
           <div class="menu-links">
             <ul class="main-menu rest">
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
+              <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <div class="link cursor-pointer dmenu">
                     <span class="fill-text" data-text="Home"> Home </span>
@@ -479,21 +155,14 @@
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="/light/home-asymmetric-portfolio"
-                        class="sub-link"
-                      >
+                      <a href="/light/home-asymmetric-portfolio" class="sub-link">
                         Asymmetric Portfolio
                       </a>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
+              <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <div class="link cursor-pointer dmenu">
                     <span class="fill-text" data-text="Pages"> Pages </span>
@@ -553,10 +222,7 @@
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="/light/page-services-details"
-                              class="sub-link"
-                            >
+                            <a href="/light/page-services-details" class="sub-link">
                               Services Details
                             </a>
                           </li>
@@ -641,11 +307,7 @@
                   </ul>
                 </div>
               </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
+              <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <div class="link cursor-pointer dmenu">
                     <span class="fill-text" data-text="Portfolio">
@@ -668,10 +330,7 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a
-                              href="/light/portfolio-standard"
-                              class="sub-link"
-                            >
+                            <a href="/light/portfolio-standard" class="sub-link">
                               Standerd
                             </a>
                           </li>
@@ -691,10 +350,7 @@
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="/light/portfolio-caption-cursor"
-                              class="sub-link"
-                            >
+                            <a href="/light/portfolio-caption-cursor" class="sub-link">
                               Caption Cursor
                             </a>
                           </li>
@@ -704,10 +360,7 @@
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="/light/portfolio-parallax"
-                              class="sub-link"
-                            >
+                            <a href="/light/portfolio-parallax" class="sub-link">
                               Parallax
                             </a>
                           </li>
@@ -731,10 +384,7 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a
-                              href="/light/showcase-fullscreen"
-                              class="sub-link"
-                            >
+                            <a href="/light/showcase-fullscreen" class="sub-link">
                               Parallax Slider
                             </a>
                           </li>
@@ -744,34 +394,22 @@
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="/light/showcase-half-slider"
-                              class="sub-link"
-                            >
+                            <a href="/light/showcase-half-slider" class="sub-link">
                               Creative Slider
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="/light/showcase-interactive-full"
-                              class="sub-link"
-                            >
+                            <a href="/light/showcase-interactive-full" class="sub-link">
                               Interactive Full
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="/light/showcase-interactive-center"
-                              class="sub-link"
-                            >
+                            <a href="/light/showcase-interactive-center" class="sub-link">
                               Interactive Center
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="/light/showcase-interactive-vertical"
-                              class="sub-link"
-                            >
+                            <a href="/light/showcase-interactive-vertical" class="sub-link">
                               Interactive Vertical
                             </a>
                           </li>
@@ -825,11 +463,7 @@
                   </ul>
                 </div>
               </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
+              <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <div class="link cursor-pointer dmenu">
                     <span class="fill-text" data-text="Blogs"> Blogs </span>
@@ -861,11 +495,7 @@
                   </ul>
                 </div>
               </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
+              <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <a href="/light/page-contact3" class="link">
                     <span class="fill-text" data-text="Contact Us">

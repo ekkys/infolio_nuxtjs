@@ -3,9 +3,9 @@
     <div class="swiper-container parallax-slider">
       <Swiper effect="Parallax" class="swiper-container parallax-slider" v-bind="swiperOptions">
         <SwiperSlide>
-          <div class="bg-img valign" data-background="/light/assets/imgs/header/full/1.jpg" data-overlay-dark="4">
+          <div class="bg-img valign" data-background="/light/assets/imgs/header/full/5.jpg" data-overlay-dark="4">
             <div class="container">
-              <div class="caption text-center">
+              <div class="mt-100 caption text-center">
                 <h3 class="mb-30" data-swiper-parallax="-2000">JDIH</h3>
                 <h6>Pencarian Dokumen dan Informasi Hukum di Lingkungan Kabupaten Mojokerto</h6>
                 <div class="c-search-wrapper">
@@ -36,7 +36,7 @@
                         </select>
                       </div>
                       <div class="col-md-2 search-col search-col-submit">
-                        <button type="submit" class="btn btn-warning mb-3 text-white">Cari Peraturan</button>
+                        <button type="submit" class="btn btn-secondary mb-3 text-white">Cari Peraturan</button>
                       </div>
                     </div>
                   </form>
@@ -128,7 +128,7 @@
 .c-search-wrapper .form-control {
   border-radius: 120px;
   border: none;
-  box-shadow: none;
+  box-shadow: 1px;
 }
 
 .c-search-wrapper .form-select {
