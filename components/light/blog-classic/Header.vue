@@ -1,7 +1,7 @@
 <template>
   <header
     class="page-header bg-img section-padding"
-    data-background="/light/assets/imgs/header/bg1.jpg"
+    data-background="/light/assets/imgs/header/b8.jpg"
     data-overlay-dark="9"
   >
     <div class="container pt-100">

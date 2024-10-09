@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bord blur">
     <div class="container">
-      <a class="logo icon-img-101" href="#">
+      <a class="logo icon-img-150" href="#">
         <img src="/light/assets/imgs/logo-nav-jdih.png" alt="logo" />
       </a>
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
@@ -56,7 +56,7 @@
           <!-- PERDES -->
           <li @mousemove="handleDropdownMouseMove" @mouseleave="handleDropdownMouseLeave" class="nav-item">
             <a class="nav-link" href="/light/">
-              <span class="rolling-text">PERDES</span>
+              <span class="rolling-text">PERDESA</span>
             </a>
           </li>
           <!-- BERITA -->
